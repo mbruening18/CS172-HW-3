@@ -21,7 +21,7 @@ int getNext();
 //EX03_01 – Liang Programming Exercise 9.2: the Fan class
 
 
-/*
+
 class Fan
 {
 public:
@@ -64,7 +64,7 @@ public:
     
 };
  
- */
+
 
 //EX03_03 – Liang Programming Exercise 9.11: the EvenNumber class
 

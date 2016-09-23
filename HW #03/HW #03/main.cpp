@@ -22,7 +22,7 @@ int main()
 {
 //EX03_01 – Liang Programming Exercise 9.2: the Fan class
     
-    /*
+    
     Fan F1,F2,F3;
     F1.Speed = 1;
     F2.Speed = 2;
@@ -36,7 +36,7 @@ int main()
     cout << "Fan speed: " << F1.getSpeed() << endl;
     cout << "Fan radius: " << F1.getRadius() << endl;
     cout << "Fan on? " << F1.isOn() << endl;
-*/
+
     
     
 //EX03_02 – Liang Programming Exercise 9.6: Algebra: quadratic equations

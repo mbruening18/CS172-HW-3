@@ -10,7 +10,7 @@
 #include "Fan.h"
 
 //EX03_01 – Liang Programming Exercise 9.2: the Fan class
-/*
+
 int getSpeed()
 
 {
@@ -50,7 +50,7 @@ int getDiscriminant()
 {
     return (b*b)-4ac;
 }
-*/
+
 
 
 
@@ -64,6 +64,10 @@ int getValue()
 }
 int getNext()
 {
-    return false;
+    return EvenNumber;
+}
+int getPrevious()
+{
+    return EvenNumber;
 }
 
