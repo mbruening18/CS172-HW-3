@@ -9,10 +9,12 @@
 #include <stdio.h>
 #include "Fan.h"
 
+
+/*
+
 //EX03_01 – Liang Programming Exercise 9.2: the Fan class
 
 int getSpeed()
-
 {
     return Speed;
 }
@@ -57,7 +59,6 @@ int getDiscriminant()
 //EX03_03 – Liang Programming Exercise 9.11: the EvenNumber class
 
 
-
 int getValue()
 {
     return false;
@@ -70,4 +71,20 @@ int getPrevious()
 {
     return EvenNumber;
 }
+
+
+ */
+
+//EX03_04 – Liang Programming Exercise 10.4: Sort characters in a string
+ 
+ 
+//EX03_05 – Liang Programming Exercise 10.10: the MyInteger class
+
+ void increment (Count c, int times)
+{
+    c.count++;
+    times++;
+}
+
+
 

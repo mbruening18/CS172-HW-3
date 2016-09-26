@@ -13,9 +13,12 @@
 
 #include <stdio.h>
 #include "Fan.h"
+
+
+/*
 int getValue();
 int getNext();
-
+void increment ();
 
 
 //EX03_01 – Liang Programming Exercise 9.2: the Fan class
@@ -41,6 +44,7 @@ public:
 
 
 //EX03_02 – Liang Programming Exercise 9.6: Algebra: quadratic equations
+
 
 class QuadraticEquation
 {
@@ -68,6 +72,7 @@ public:
 
 //EX03_03 – Liang Programming Exercise 9.11: the EvenNumber class
 
+
 class EvenNumber
 {
 public:
@@ -79,5 +84,26 @@ public:
     }
 };
 
+
+
+//EX03_04 – Liang Programming Exercise 10.4: Sort characters in a string
+
+ class Count
+{
+public:
+    int count;
+    Count (int c)
+    {
+        count = c;
+    }
+    
+    Count ()
+    {
+        count = 0;
+    }
+};
+
+ 
+*/
 
 #endif /* Fan_h */
