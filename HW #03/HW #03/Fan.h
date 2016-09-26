@@ -15,9 +15,8 @@
 #include "Fan.h"
 
 
-/*
-int getValue();
-int getNext();
+
+
 void increment ();
 
 
@@ -27,48 +26,30 @@ void increment ();
 
 class Fan
 {
-public:
+private:
     int Speed;
-    bool On();
-    double radius;
- 
- Fan()
- {
-    Speed = 1;
-    On() = false;
-    radius = 5;
- }
- 
-};
-
-
-
-//EX03_02 – Liang Programming Exercise 9.6: Algebra: quadratic equations
-
-
-class QuadraticEquation
-{
+    bool On;
+    double Radius;
+    
 public:
-    int a;
-    int b;
-    int c;
-    
-    a()
-    {
-        
-    }
-    b()
-    {
-        
-    }
-    c()
-    {
-        
-    }
+    Fan();
+
+    int getSpeed();
+    void setSpeed(int speed);
+    bool isOn();
+    void setOn(bool trueOrFalse);
+    double getRadius();
+    void setRadius(double radius);
+
+   
     
 };
- 
 
+
+
+
+ 
+/*
 
 //EX03_03 – Liang Programming Exercise 9.11: the EvenNumber class
 

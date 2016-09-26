@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C153CAB51D95D3D600F41B92 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C153CAB41D95D3D600F41B92 /* main.cpp */; };
 		C153CABE1D95D5D500F41B92 /* Fan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C153CABC1D95D5D500F41B92 /* Fan.cpp */; };
+		C1FB03711D99D83F009F49AC /* Quadratic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1FB036F1D99D83F009F49AC /* Quadratic.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		C153CAB41D95D3D600F41B92 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C153CABC1D95D5D500F41B92 /* Fan.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Fan.cpp; sourceTree = "<group>"; };
 		C153CABD1D95D5D500F41B92 /* Fan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fan.h; sourceTree = "<group>"; };
+		C1FB036F1D99D83F009F49AC /* Quadratic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Quadratic.cpp; sourceTree = "<group>"; };
+		C1FB03701D99D83F009F49AC /* Quadratic.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Quadratic.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				C153CAB41D95D3D600F41B92 /* main.cpp */,
 				C153CABD1D95D5D500F41B92 /* Fan.h */,
 				C153CABC1D95D5D500F41B92 /* Fan.cpp */,
+				C1FB03701D99D83F009F49AC /* Quadratic.hpp */,
+				C1FB036F1D99D83F009F49AC /* Quadratic.cpp */,
 			);
 			path = "HW #03";
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1FB03711D99D83F009F49AC /* Quadratic.cpp in Sources */,
 				C153CAB51D95D3D600F41B92 /* main.cpp in Sources */,
 				C153CABE1D95D5D500F41B92 /* Fan.cpp in Sources */,
 			);
@@ -252,6 +258,7 @@
 				C153CABA1D95D3D600F41B92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -16,38 +16,71 @@
 #include <string>
 #include <ctime>
 #include "Fan.h"
+#include "Quadratic.hpp"
 using namespace std;
 
 int main()
 {
 //EX03_01 – Liang Programming Exercise 9.2: the Fan class
     
-    /*
-    Fan F1,F2,F3;
-    F1.Speed = 1;
-    F2.Speed = 2;
-    F3.Speed = 3;
    
+    Fan F1,F2;
 
     F1.setSpeed(3);
     F1.setRadius(10);
     F1.setOn(true);
   
-    cout << "Fan speed: " << F1.getSpeed() << endl;
-    cout << "Fan radius: " << F1.getRadius() << endl;
-    cout << "Fan on? " << F1.isOn() << endl;
+    cout << "Fan1 speed: " << F1.getSpeed() << endl;
+    cout << "Fan1 radius: " << F1.getRadius() << endl;
+    cout << "Fan1 on? " << boolalpha << F1.isOn() << endl;
+    
+    F2.setSpeed(2);
+    F2.setRadius(5);
+    F2.setOn(false);
+    
+    cout << "Fan2 speed: " << F2.getSpeed() << endl;
+    cout << "Fan2 radius: " << F2.getRadius() << endl;
+    cout << "Fan2 on? " << boolalpha << F2.isOn() << endl;
 
     
     
 //EX03_02 – Liang Programming Exercise 9.6: Algebra: quadratic equations
     
+    int a = 0;
+    int b = 0;
+    int c = 0;
+
+    cout << "Enter a value for a: ";
+    cin >> a;
+    cout << "Enter a value for b: ";
+    cin >> b;
+    cout << "Enter a value for c: ";
+    cin >> c;
     
+    QuadraticEquation QE(a,b,c);
+    
+    if (QE.getDiscriminant() > 0)
+    {
+        cout << QE.getRoot1()<<endl;
+        cout << QE.getRoot2()<<endl;
+        
+    }
+    else if (QE.getDiscriminant() == 0)
+    {
+         cout << QE.getRoot1();
+    }
+
+    else
+    {
+     cout << "The equation has no real roots";
+        
+    }
     
 //EX03_03 – Liang Programming Exercise 9.11: the EvenNumber class
     
     
 //EX03_04 – Liang Programming Exercise 10.4: Sort characters in a string
-    
+    /*
     string s1("I have a dream");
     string s2("Computer programming");
     

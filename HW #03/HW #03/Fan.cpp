@@ -10,55 +10,55 @@
 #include "Fan.h"
 
 
-/*
+
 
 //EX03_01 – Liang Programming Exercise 9.2: the Fan class
 
-int getSpeed()
+ 
+Fan::Fan()
+ {
+ Speed = 1;
+ On = false;
+ Radius = 5;
+ }
+ 
+int Fan::getSpeed()
 {
     return Speed;
 }
 
-void setSpeed(int speed)
+void Fan::setSpeed(int speed)
 {
-    setSpeed = speed;
+    Speed = speed;
 }
 
-bool isOn()
+bool Fan:: isOn()
 {
     return On;
 }
 
-void setOn(bool trueOrFalse)
+void Fan::setOn(bool trueOrFalse)
 {
-    SetOn = trueOrFalse;
+    On = trueOrFalse;
 }
 
-double getRadius()
+double Fan::getRadius()
 {
-    return radius;
+    return Radius;
 }
 
-void setRadius(double radius)
+void Fan::setRadius(double radius)
 {
-    setradius = radius;
+    Radius = radius;
 }
 
-
-//EX03_02 – Liang Programming Exercise 9.6: Algebra: quadratic equations
-
-
-int getDiscriminant()
-{
-    return (b*b)-4ac;
-}
 
 
 
 
 //EX03_03 – Liang Programming Exercise 9.11: the EvenNumber class
 
-
+/*
 int getValue()
 {
     return false;
@@ -73,7 +73,7 @@ int getPrevious()
 }
 
 
- */
+
 
 //EX03_04 – Liang Programming Exercise 10.4: Sort characters in a string
  
@@ -87,4 +87,4 @@ int getPrevious()
 }
 
 
-
+ */
