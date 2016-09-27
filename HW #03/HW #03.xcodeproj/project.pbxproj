@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		C153CAB51D95D3D600F41B92 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C153CAB41D95D3D600F41B92 /* main.cpp */; };
 		C153CABE1D95D5D500F41B92 /* Fan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C153CABC1D95D5D500F41B92 /* Fan.cpp */; };
+		C18CFBF71D9AF4CB00E0F00B /* EvenNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C18CFBF51D9AF4CB00E0F00B /* EvenNumber.cpp */; };
+		C18CFBFA1D9AF56C00E0F00B /* SortCharactersinString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C18CFBF81D9AF56C00E0F00B /* SortCharactersinString.cpp */; };
+		C18CFBFE1D9AF60200E0F00B /* MyIntegerClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C18CFBFC1D9AF60200E0F00B /* MyIntegerClass.cpp */; };
 		C1FB03711D99D83F009F49AC /* Quadratic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1FB036F1D99D83F009F49AC /* Quadratic.cpp */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +32,12 @@
 		C153CAB41D95D3D600F41B92 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C153CABC1D95D5D500F41B92 /* Fan.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Fan.cpp; sourceTree = "<group>"; };
 		C153CABD1D95D5D500F41B92 /* Fan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fan.h; sourceTree = "<group>"; };
+		C18CFBF51D9AF4CB00E0F00B /* EvenNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EvenNumber.cpp; sourceTree = "<group>"; };
+		C18CFBF61D9AF4CB00E0F00B /* EvenNumber.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EvenNumber.hpp; sourceTree = "<group>"; };
+		C18CFBF81D9AF56C00E0F00B /* SortCharactersinString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortCharactersinString.cpp; sourceTree = "<group>"; };
+		C18CFBF91D9AF56C00E0F00B /* SortCharactersinString.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SortCharactersinString.hpp; sourceTree = "<group>"; };
+		C18CFBFC1D9AF60200E0F00B /* MyIntegerClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyIntegerClass.cpp; sourceTree = "<group>"; };
+		C18CFBFD1D9AF60200E0F00B /* MyIntegerClass.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MyIntegerClass.hpp; sourceTree = "<group>"; };
 		C1FB036F1D99D83F009F49AC /* Quadratic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Quadratic.cpp; sourceTree = "<group>"; };
 		C1FB03701D99D83F009F49AC /* Quadratic.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Quadratic.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,6 +77,12 @@
 				C153CABC1D95D5D500F41B92 /* Fan.cpp */,
 				C1FB03701D99D83F009F49AC /* Quadratic.hpp */,
 				C1FB036F1D99D83F009F49AC /* Quadratic.cpp */,
+				C18CFBF61D9AF4CB00E0F00B /* EvenNumber.hpp */,
+				C18CFBF51D9AF4CB00E0F00B /* EvenNumber.cpp */,
+				C18CFBF91D9AF56C00E0F00B /* SortCharactersinString.hpp */,
+				C18CFBF81D9AF56C00E0F00B /* SortCharactersinString.cpp */,
+				C18CFBFD1D9AF60200E0F00B /* MyIntegerClass.hpp */,
+				C18CFBFC1D9AF60200E0F00B /* MyIntegerClass.cpp */,
 			);
 			path = "HW #03";
 			sourceTree = "<group>";
@@ -131,7 +146,10 @@
 			files = (
 				C1FB03711D99D83F009F49AC /* Quadratic.cpp in Sources */,
 				C153CAB51D95D3D600F41B92 /* main.cpp in Sources */,
+				C18CFBF71D9AF4CB00E0F00B /* EvenNumber.cpp in Sources */,
 				C153CABE1D95D5D500F41B92 /* Fan.cpp in Sources */,
+				C18CFBFA1D9AF56C00E0F00B /* SortCharactersinString.cpp in Sources */,
+				C18CFBFE1D9AF60200E0F00B /* MyIntegerClass.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

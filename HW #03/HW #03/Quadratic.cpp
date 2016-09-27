@@ -7,7 +7,11 @@
 //
 
 #include "Quadratic.hpp"
+#include <iostream>
+#include <iomanip>
 #include <cmath>
+#include <string>
+#include <ctime>
 
 //EX03_02 – Liang Programming Exercise 9.6: Algebra: quadratic equations
 

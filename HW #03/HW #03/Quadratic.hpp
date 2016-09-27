@@ -8,7 +8,11 @@
 
 #ifndef Quadratic_hpp
 #define Quadratic_hpp
-
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+#include <string>
+#include <ctime>
 #include <stdio.h>
 
 //EX03_02 – Liang Programming Exercise 9.6: Algebra: quadratic equations

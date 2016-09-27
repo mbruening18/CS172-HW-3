@@ -17,6 +17,11 @@
 #include <ctime>
 #include "Fan.h"
 #include "Quadratic.hpp"
+#include "EvenNumber.hpp"
+#include "SortCharactersinString.hpp"
+#include "MyIntegerClass.hpp"
+
+
 using namespace std;
 
 int main()
@@ -72,11 +77,28 @@ int main()
 
     else
     {
-     cout << "The equation has no real roots";
+     cout << "The equation has no real roots"<<endl;
         
     }
     
 //EX03_03 – Liang Programming Exercise 9.11: the EvenNumber class
+
+    int value=0;
+    cout << "Enter an even number: ";
+    cin >> value;
+    
+    while(value%2==1)
+    {
+        cout << "The number you entered is not even, please try again: ";
+        cin >> value;
+        cout << "Your value is " <<value <<endl;
+    }
+    
+    EvenNumber EN1;
+    
+     cout << "The Next even number is : " << EN1.getNext() << endl;
+    cout << "The Previous even number is : " << EN1.getPrevious() << endl;
+
     
     
 //EX03_04 – Liang Programming Exercise 10.4: Sort characters in a string
