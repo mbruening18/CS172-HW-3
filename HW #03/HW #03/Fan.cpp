@@ -13,6 +13,7 @@
 #include "Fan.h"
 
 
+using namespace std;
 
 
 //EX03_01 – Liang Programming Exercise 9.2: the Fan class

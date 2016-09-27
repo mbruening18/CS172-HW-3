@@ -13,6 +13,9 @@
 #include <string>
 #include <ctime>
 
+
+using namespace std;
+
 //EX03_02 – Liang Programming Exercise 9.6: Algebra: quadratic equations
 
 

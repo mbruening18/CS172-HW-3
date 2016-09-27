@@ -15,9 +15,21 @@
 #include <ctime>
 #include <stdio.h>
 
-void increment ();
+
 
 //EX03_05 – Liang Programming Exercise 10.10: the MyInteger class
+
+class MyInteger
+{
+private:
+    int value;
+    
+public:
+    int isEven();
+    int isOdd();
+    int isPrime();
+    
+};
 
 
 #endif /* MyIntegerClass_hpp */

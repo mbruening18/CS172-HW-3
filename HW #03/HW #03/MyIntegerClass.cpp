@@ -16,9 +16,17 @@
 
 //EX03_05 – Liang Programming Exercise 10.10: the MyInteger class
 
-/*
-void increment (Count c, int times)
+int MyInteger::isEven()
 {
-    c.count++;
-    times++;
-}*/
+    return true;
+}
+
+int MyInteger::isOdd()
+{
+     return true;
+}
+
+int MyInteger::isPrime()
+{
+     return true;
+}

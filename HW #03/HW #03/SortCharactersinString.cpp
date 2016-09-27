@@ -11,16 +11,12 @@
 #include <string>
 #include <ctime>
 #include "SortCharactersinString.hpp"
+
+using namespace std;
+
 //EX03_04 – Liang Programming Exercise 10.4: Sort characters in a string
 
-/*
-int Count::Count (int c)
+string sort(string& s)
 {
-    count = c;
+    
 }
-
-int Count::Count ()
-{
-    count = 0;
-}
-*/

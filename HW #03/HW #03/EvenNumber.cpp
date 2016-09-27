@@ -13,11 +13,13 @@
 #include <string>
 #include <ctime>
 
+using namespace std;
+
 //EX03_03 – Liang Programming Exercise 9.11: the EvenNumber class
 
-EvenNumber ::EvenNumber()
+EvenNumber ::EvenNumber(int val)
 {
-    value = 1;
+    value = val;
 }
  int EvenNumber:: getValue()
  {
@@ -26,11 +28,11 @@ EvenNumber ::EvenNumber()
  }
  int EvenNumber::getNext()
  {
-     return value == value + 2;
+     return value + 2;
  }
  int EvenNumber::getPrevious()
  {
-     return value == value - 2;
+     return value - 2;
  }
  
 

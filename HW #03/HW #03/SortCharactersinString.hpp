@@ -14,19 +14,15 @@
 #include <string>
 #include <ctime>
 #include <stdio.h>
+using namespace std;
 
 //EX03_04 – Liang Programming Exercise 10.4: Sort characters in a string
 
-class Count
+class sort
 {
-private:
-    int count;
-    
 public:
-    Count (int c);
-    Count ();
+    string sort(string& s);
 };
-
 
 
 
