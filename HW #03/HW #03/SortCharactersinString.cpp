@@ -16,7 +16,7 @@ using namespace std;
 
 //EX03_04 – Liang Programming Exercise 10.4: Sort characters in a string
 
-string sort(string& s)
+sortString:: sort(string& s)
 {
     
 }

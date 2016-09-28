@@ -16,17 +16,70 @@
 
 //EX03_05 – Liang Programming Exercise 10.10: the MyInteger class
 
-int MyInteger::isEven()
+MyInteger:: MyInteger (int val)
+{
+    value = val;
+}
+
+const int MyInteger::isEven()
+{
+    value%2 == 1;
+    return true;
+}
+
+const int MyInteger::isOdd()
 {
     return true;
 }
 
-int MyInteger::isOdd()
+const int MyInteger::isPrime()
+{
+    return true;
+}
+
+ int MyInteger::isEven(int)
+{
+    
+    return true;
+}
+
+ int MyInteger::isOdd(int)
 {
      return true;
 }
 
-int MyInteger::isPrime()
+ int MyInteger::isPrime(int)
 {
      return true;
 }
+
+static int isEven(const MyInteger&)
+{
+    return true;
+}
+static int isOdd(const MyInteger&)
+{
+    return true;
+}
+static int isprime(const MyInteger&)
+{
+    return true;
+}
+
+const int equals(int)
+{
+    return true;
+}
+const int equals(const MyInteger&)
+{
+    return true;
+}
+
+
+
+int parseInt(const string&)
+{
+    int value;
+    
+}
+

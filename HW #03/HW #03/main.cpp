@@ -113,6 +113,7 @@ int main()
     
 //EX03_05 – Liang Programming Exercise 10.10: the MyInteger class
   
+     MyInteger MI1(value);
     
     
     

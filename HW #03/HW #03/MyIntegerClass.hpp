@@ -14,7 +14,7 @@
 #include <string>
 #include <ctime>
 #include <stdio.h>
-
+using namespace std;
 
 
 //EX03_05 – Liang Programming Exercise 10.10: the MyInteger class
@@ -25,9 +25,24 @@ private:
     int value;
     
 public:
-    int isEven();
-    int isOdd();
-    int isPrime();
+    MyInteger(int val);
+    
+    const int isEven();
+    const int isOdd();
+    const int isPrime();
+    
+    static int isEven(int);
+    static int isOdd(int);
+    static int isPrime(int);
+    
+    static int isEven(const MyInteger&);
+    static int isOdd(const MyInteger&);
+    static int isprime(const MyInteger&);
+    
+    const int equals(int);
+    const int equals(const MyInteger&);
+    
+    int parseInt(const string&);
     
 };
 
