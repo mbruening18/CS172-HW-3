@@ -21,65 +21,82 @@ MyInteger:: MyInteger (int val)
     value = val;
 }
 
-const int MyInteger::isEven()
+int MyInteger:: getValue() const
 {
-    value%2 == 1;
-    return true;
-}
-
-const int MyInteger::isOdd()
-{
-    return true;
-}
-
-const int MyInteger::isPrime()
-{
-    return true;
-}
-
- int MyInteger::isEven(int)
-{
-    
-    return true;
-}
-
- int MyInteger::isOdd(int)
-{
-     return true;
-}
-
- int MyInteger::isPrime(int)
-{
-     return true;
-}
-
-static int isEven(const MyInteger&)
-{
-    return true;
-}
-static int isOdd(const MyInteger&)
-{
-    return true;
-}
-static int isprime(const MyInteger&)
-{
-    return true;
-}
-
-const int equals(int)
-{
-    return true;
-}
-const int equals(const MyInteger&)
-{
-    return true;
-}
-
-
-
-int parseInt(const string&)
-{
-    int value;
+    return value;
     
 }
+bool
+MyInteger::isEven() const
+{
+   
+    return MyInteger:: isEven(value);
+}
+
+bool MyInteger::isOdd() const
+{
+    return MyInteger:: isOdd(value);
+}
+
+bool MyInteger::isPrime() const
+{
+    return MyInteger:: isPrime(value);
+}
+
+bool MyInteger::isEven(int i)
+{
+    
+    return i%2 ==0;
+}
+
+bool MyInteger::isOdd(int i)
+{
+     return i%2 ==1;
+}
+
+bool MyInteger::isPrime(int i)
+{
+    
+    bool isPrime = true;
+    
+    for(int divisor = 2; divisor <= i / 2; divisor++)
+    {
+        if (i % divisor == 0)
+        {
+            isPrime=false;
+        }
+    }
+    return isPrime;
+}
+
+bool MyInteger::isEven(const MyInteger& i)
+{
+    return i.isEven();
+}
+bool MyInteger::isOdd(const MyInteger& i)
+{
+    return i.isOdd();
+}
+bool MyInteger::isPrime(const MyInteger& i)
+{
+    return i.isPrime();
+}
+
+bool MyInteger::equals(int i) const
+{
+    return value == i;
+}
+bool MyInteger::equals(const MyInteger& i) const
+{
+    return i.equals(value);
+}
+
+
+
+int MyInteger::parseInt(const string& i)
+{
+    return stoi(i);
+
+}
+
 

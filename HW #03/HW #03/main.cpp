@@ -104,18 +104,25 @@ int main()
     
 //EX03_04 – Liang Programming Exercise 10.4: Sort characters in a string
     
-    int string;
+    string string;
     
     cout << "Enter a String s: ";
     cin >> string;
-    cout << "The sorted string is "<< endl;
+    string = sort(string);
+    cout << "The sorted string is "<< string << endl;
    
+    
     
 //EX03_05 – Liang Programming Exercise 10.10: the MyInteger class
   
      MyInteger MI1(value);
     
-    
+    cout << "Enter a value: ";
+    cin >> value;
+    cout<< boolalpha;
+    cout << "The value you have entered " <<value << " is prime?" <<MI1.isPrime()<<endl;
+    cout << "The value you have entered " <<value << " is even?" <<MI1.isEven() <<endl;
+    cout << "The value you have entered " <<value << " is odd?" << MI1.isOdd() <<endl;
     
     
     

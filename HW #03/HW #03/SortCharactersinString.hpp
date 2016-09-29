@@ -18,14 +18,8 @@ using namespace std;
 
 //EX03_04 – Liang Programming Exercise 10.4: Sort characters in a string
 
-class sortString
-{
-private:
-    int sort;
-    
-public:
-    string sort(string& s);
-};
+
+string sort(string& s);
 
 
 

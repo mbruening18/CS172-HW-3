@@ -16,7 +16,28 @@ using namespace std;
 
 //EX03_04 – Liang Programming Exercise 10.4: Sort characters in a string
 
-sortString:: sort(string& s)
+
+string sort(string& s)
 {
+    string stur;
+    stur = s;
     
+    for(int i=0 ; i < stur.length();i++)
+        
+    {
+        int smallest = i;
+        
+        for(int j = i+1; j < stur.length(); j++)
+        {
+            if(stur[j]< stur[smallest])
+            {
+                smallest = j;
+            }
+        }
+        char temp = stur [smallest];
+        stur [smallest]=stur[i];
+        stur [i]=temp;
+    }
+    
+    return stur;
 }

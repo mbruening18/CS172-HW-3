@@ -26,23 +26,23 @@ private:
     
 public:
     MyInteger(int val);
+    int getValue() const;
+    bool isEven()const;
+    bool isOdd()const;
+    bool isPrime()const;
     
-    const int isEven();
-    const int isOdd();
-    const int isPrime();
+    static bool isEven(int);
+    static bool isOdd(int);
+    static bool isPrime(int);
     
-    static int isEven(int);
-    static int isOdd(int);
-    static int isPrime(int);
+    static bool isEven(const MyInteger&);
+    static bool isOdd(const MyInteger&);
+    static bool isPrime(const MyInteger&);
     
-    static int isEven(const MyInteger&);
-    static int isOdd(const MyInteger&);
-    static int isprime(const MyInteger&);
+    bool equals(int) const ;
+    bool equals(const MyInteger&) const;
     
-    const int equals(int);
-    const int equals(const MyInteger&);
-    
-    int parseInt(const string&);
+    static int parseInt(const string&);
     
 };
 
