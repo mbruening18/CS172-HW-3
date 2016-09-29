@@ -39,6 +39,8 @@ int main()
     cout << "Fan1 radius: " << F1.getRadius() << endl;
     cout << "Fan1 on? " << boolalpha << F1.isOn() << endl;
     
+    cout << " "<<endl;
+    
     F2.setSpeed(2);
     F2.setRadius(5);
     F2.setOn(false);
@@ -47,7 +49,7 @@ int main()
     cout << "Fan2 radius: " << F2.getRadius() << endl;
     cout << "Fan2 on? " << boolalpha << F2.isOn() << endl;
 
-    
+    cout << " "<<endl;
     
 //EX03_02 – Liang Programming Exercise 9.6: Algebra: quadratic equations
     
@@ -61,6 +63,8 @@ int main()
     cin >> b;
     cout << "Enter a value for c: ";
     cin >> c;
+    
+    cout << " "<<endl;
     
     QuadraticEquation QE(a,b,c);
     
@@ -81,11 +85,15 @@ int main()
         
     }
     
+    cout << " "<<endl;
+    
 //EX03_03 – Liang Programming Exercise 9.11: the EvenNumber class
 
     int value=0;
     cout << "Enter an even number: ";
     cin >> value;
+    
+    cout << " "<<endl;
     
     while(value%2==1)
     {
@@ -100,7 +108,7 @@ int main()
     cout << "The Next even number is : " << EN1.getNext() << endl;
     cout << "The Previous even number is : " << EN1.getPrevious() << endl;
 
-    
+    cout << " "<<endl;
     
 //EX03_04 – Liang Programming Exercise 10.4: Sort characters in a string
     
@@ -111,22 +119,25 @@ int main()
     string = sort(string);
     cout << "The sorted string is "<< string << endl;
    
+    cout << " "<<endl;
     
     
 //EX03_05 – Liang Programming Exercise 10.10: the MyInteger class
-  
-     MyInteger MI1(value);
     
     cout << "Enter a value: ";
     cin >> value;
     cout<< boolalpha;
-    cout << "The value you have entered " <<value << " is prime?" <<MI1.isPrime()<<endl;
-    cout << "The value you have entered " <<value << " is even?" <<MI1.isEven() <<endl;
-    cout << "The value you have entered " <<value << " is odd?" << MI1.isOdd() <<endl;
     
-    
+    MyInteger MI1(value);
+
+    cout << "The value " <<value << ", is prime? " <<MI1.isPrime()<<endl;
+    cout << "The value " <<value << ", is even? " <<MI1.isEven() <<endl;
+    cout << "The value " <<value << ", is odd? " << MI1.isOdd() <<endl;
+
+    cout << " "<<endl;
     
     return 0;
+    
     
 }
 

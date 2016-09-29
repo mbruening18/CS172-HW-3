@@ -26,8 +26,7 @@ int MyInteger:: getValue() const
     return value;
     
 }
-bool
-MyInteger::isEven() const
+bool MyInteger::isEven() const
 {
    
     return MyInteger:: isEven(value);
@@ -46,12 +45,12 @@ bool MyInteger::isPrime() const
 bool MyInteger::isEven(int i)
 {
     
-    return i%2 ==0;
+    return i%2 == 0;
 }
 
 bool MyInteger::isOdd(int i)
 {
-     return i%2 ==1;
+     return i%2 == 1;
 }
 
 bool MyInteger::isPrime(int i)
@@ -61,6 +60,7 @@ bool MyInteger::isPrime(int i)
     
     for(int divisor = 2; divisor <= i / 2; divisor++)
     {
+        
         if (i % divisor == 0)
         {
             isPrime=false;
