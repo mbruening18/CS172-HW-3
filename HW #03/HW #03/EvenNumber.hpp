@@ -17,15 +17,20 @@
 
 //EX03_03 – Liang Programming Exercise 9.11: the EvenNumber class
 
-
+//declares even number class
 class EvenNumber
 {
+    // makes is privarte
 private:
+    //creates a data field that represents the integer value stored in the object
     int value;
     
+    //makes it public
 public:
+    // a constructor that constructs  object with a specified value
     EvenNumber(int val);
     
+    //creates functions that return a object
     int getValue();
     int getNext();
     int getPrevious();

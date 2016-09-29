@@ -18,7 +18,7 @@ using namespace std;
 
 //EX03_02 – Liang Programming Exercise 9.6: Algebra: quadratic equations
 
-
+//three data fieds that represent 3 coefficients
 QuadraticEquation::QuadraticEquation(int a, int b, int c)
 {
     mA = a;
@@ -26,6 +26,7 @@ QuadraticEquation::QuadraticEquation(int a, int b, int c)
     mC = c;
 }
 
+//get fuctions that return the 3 coeffiecents
 int QuadraticEquation::geta()
 {
     return mA;
@@ -39,16 +40,21 @@ int QuadraticEquation::getc()
     return mC;
 }
 
+//function that returns the equation
 int QuadraticEquation::getDiscriminant()
 {
     return mB * mB - (4*mA*mC);
 }
+
+// 2 functions that give us each of the roots of the equation
 double QuadraticEquation::getRoot1()
 {
+    //checks if discriment is less than 0
     if(getDiscriminant() < 0)
     {
         return 0;
     }
+    //otherwise does equation
     else
     {
         return (-mB + sqrt(getDiscriminant()))/(2*mA);
@@ -56,10 +62,12 @@ double QuadraticEquation::getRoot1()
 }
 double QuadraticEquation::getRoot2()
 {
+    //checks if discriment is less than 0
     if(getDiscriminant() < 0)
     {
         return 0;
     }
+    //otherwise does equation 
     else
     {
         return (-mB - sqrt(getDiscriminant()))/(2*mA);

@@ -18,7 +18,7 @@ using namespace std;
 
 //EX03_04 – Liang Programming Exercise 10.4: Sort characters in a string
 
-
+//declare funtion that returns a sorted string by passing an object by reference 
 string sort(string& s);
 
 
