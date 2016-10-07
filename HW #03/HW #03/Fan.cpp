@@ -20,7 +20,7 @@ using namespace std;
 
 //no arg constuctor
 Fan::Fan()
-// defalt fan factors
+// default fan factors
  {
  Speed = 1;
  On = false;

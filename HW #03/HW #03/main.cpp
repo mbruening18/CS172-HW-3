@@ -15,6 +15,7 @@
 #include <cmath>
 #include <string>
 #include <ctime>
+
 #include "Fan.h"
 #include "Quadratic.hpp"
 #include "EvenNumber.hpp"

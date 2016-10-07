@@ -27,7 +27,7 @@ private:
     //creates a data feild that stores an int value
     int value;
     
-    //makes the following private
+    //makes the following public
 public:
     // constructor that creates a myinteger object for specified int val
     MyInteger(int val);

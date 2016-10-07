@@ -18,12 +18,6 @@
 #include <stdio.h>
 #include "Fan.h"
 
-
-
-
-
-
-
 //EX03_01 – Liang Programming Exercise 9.2: the Fan class
 
 
